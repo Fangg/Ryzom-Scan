@@ -1,0 +1,70 @@
+/*--------------------------------------------------|
+| dTree 2.05 | www.destroydrop.com/javascript/tree/ |
+|---------------------------------------------------|
+| Copyright (c) 2002-2003 Geir Landrö               |
+|--------------------------------------------------*/
+
+.dtree {
+}
+.dtree img {
+	border: 0px;
+	vertical-align: top;
+}
+.dtree a {
+	color: white;
+	text-decoration: none;
+}
+.dtree a.node, .dtree a.nodeSel {
+	white-space: nowrap;
+	padding: 1px 2px 1px 2px;
+}
+.dtree a.node:hover, .dtree a.nodeSel:hover {
+	color: white;
+	text-decoration: underline;
+}
+.dtree a.nodeSel {
+	background-color: white;
+}
+.dtree .clip {
+	overflow: hidden;
+}
+.tree {
+	padding: 5px 5px 5px 5px;
+	background-color: #7c851a;
+	border-top: 1px solid #030403;
+	border-right: 1px solid #6e7f57;
+	border-bottom: 1px solid #889e6c;
+	border-left: 1px solid #272d1f;
+	width: 160px;
+	height: 30px;
+	text-align: center;
+}
+.nodes {
+	padding: 0px 5px 0px 5px;
+    width: 160px;
+	height: 30px;
+	border-top: 1px solid #030403;
+	border-right: 1px solid #6e7f57;
+	border-bottom: 1px solid #889e6c;
+	border-left: 1px solid #272d1f;
+	display: inline-block;
+    margin: 1px;
+	font-size: 12px;
+	text-align: center;
+	color: white;
+}
+.skill-level {
+    float: right;
+}
+.hover {
+    background-color: #abcdef;
+}
+.finished {
+    background-color: #747f1f;
+}
+.finished .skill-level {
+    display: none;
+}
+.unfinished{
+    background-color: #8a5617;
+}

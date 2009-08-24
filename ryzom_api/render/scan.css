@@ -1,0 +1,154 @@
+.cult {
+	vertical-align: middle;
+} 
+.decor{
+	background-image: url(fond.png);
+    width: 302px;
+	height: 432px;
+}
+.arbre{
+    width: 430px;
+}
+.perso{
+    position: absolute;
+    margin-left: 61px;
+    width: 180px;
+	height: 432px;
+}
+.colg{
+    position: absolute;
+    width: 61px;
+	height: 432px;
+}
+.cold{
+    position: absolute;
+    margin-left: 241px;
+    width: 61px;
+	height: 432px;
+}
+.ic{
+    padding: 0px 0px 10px 10px;
+	height: 40px;
+}
+.ic2{
+    padding: 0px 0px 10px 0px;
+	height: 40px;
+
+}
+.haut{
+    padding: 0px 0px 10px 10px;
+	height: 72px;
+}
+.haut2{
+    padding: 5px 0px 5px 0px;
+	height: 72px;
+}
+.droit{
+    position: absolute;
+    margin-left: 140px;
+}
+.droit2{
+    position: absolute;
+    margin-left: 5px;
+}
+.gauche{
+    position: absolute;
+    width: 40px;
+}
+.bt{
+    width: 304px;
+}
+.statfond{
+    width: 304px;
+	background-image: url(skin_blank.png);
+}
+.statfull{
+    width: 304px;
+	height: 16px;
+	color: white;
+	font-size: 12px;
+}
+.statfullm{
+    width: 304px;
+	height: 32px;
+	color: white;
+	font-size: 12px;
+}
+.statfullc{
+    width: 286px;
+	height: 16px;
+	color: white;
+	font-size: 12px;
+}
+.statfullcm{
+    width: 286px;
+	color: white;
+	font-size: 12px;
+}
+.statleft{
+    float: left;
+    width: 150px;
+	height: 16px;
+	color: white;
+	font-size: 11px;
+}
+.statright{
+    margin-left: 154px;
+    width: 150px;
+	height: 16px;
+	color: white;
+	font-size: 11px;
+}
+.statleftf{
+    float: left;
+    width: 150px;
+	height: 16px;
+	color: white;
+	font-size: 11px;
+	background-image: url(skin_blank_inner.png);
+}
+.statrightf{
+	clear: right;
+    margin-left: 154px;
+    width: 150px;
+	height: 16px;
+	color: white;
+	font-size: 11px;
+	background-image: url(skin_blank_inner.png);
+}
+.statrightf2{
+	clear: right;
+    margin-left: 154px;
+    width: 130px;
+	height: 16px;
+	color: white;
+	font-size: 11px;
+	background-image: url(skin_blank_inner.png);
+}
+.statr{
+    float: right;
+}
+.maj{
+	text-transform: uppercase;
+}
+#full{
+    width: 304px;
+	height: 436px;
+    overflow: auto;
+}
+#cut{
+    width: 304px;
+    height:64px;
+    overflow: auto;
+}
+#cut2{
+    width: 304px;
+    height:128px;
+    overflow: auto;
+}
+#cut3{
+    width: 304px;
+    height: 340px;
+    overflow: auto;
+}
+
